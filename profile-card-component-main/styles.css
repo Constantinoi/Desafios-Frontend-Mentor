@@ -1,6 +1,78 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
+body {
+  margin: 0px;
+  padding: 0px; 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top vh ;
+  height: 100%;
 }
+
+.card-container{
+  height: 375px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-header{
+  height: 140px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-image: url(./images/bg-pattern-card.svg);
+}
+
+.card-body{
+  text-align: center;
+  height: 145px;
+  background-color: #fff;
+}
+
+#image-victor{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -50px;
+  border-radius: 50px;
+  border: 5px solid #fff;
+}
+
+.card-body-row{
+  position: relative;
+  top: -35px;
+}
+.card-body-name{
+  font-weight: 700;
+}
+
+.card-body-city{
+  font-size: 13px;
+  position: relative;
+  top: -25px;
+}
+
+.card-footer{
+
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  margin: auto;
+  margin: 3px;
+  background-color: #fff;
+}
+
 .attribution a {
-     color: hsl(228, 45%, 44%); 
-} 
+  color: hsl(228, 45%, 44%);
+}
